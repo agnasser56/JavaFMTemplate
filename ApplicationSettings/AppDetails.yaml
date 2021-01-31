@@ -1,0 +1,29 @@
+URL: ""
+ExecutionFlag:
+  - testCase1: "N"
+  - testCase2: "N"
+  - testCase3: "Y"
+
+  # Test cases data
+testCase1:
+  UserName:
+  Password: ""
+  Roles:
+    - admin
+    - supervisor
+    - normal
+testCase2:
+  name: Martin D'vloper
+  job: Developer
+  skills:
+    - python
+    - perl
+    - pascal
+testCase3:
+  Method: "Get"
+  URL: "https://jsonplaceholder.typicode.com/"
+  URLPath: "todos/1"
+  ContentType: "application/json; charset=UTF-8"
+  Body: ""
+  ExpectedResponseCode: "200"
+  ExpectedResponseBody: "\"id\": 1"
